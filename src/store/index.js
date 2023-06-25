@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-import { jokeReducer } from './slices/jokeSlice';
+import { animalsReducer, addAnimal, reset } from './slices/animalSlice';
 
 const store = configureStore({
   reducer: {
-    joke: jokeReducer,
+    animals: animalsReducer,
   },
 });
 
-export { store };
+export { store, addAnimal, reset };

@@ -1,16 +1,16 @@
 import React from 'react';
 
 import './App.scss';
-import Joke from './components/Joke/Joke';
+import Animal from './components/Joke/Animal';
 
 const App = () => {
   return (
     <div className='app'>
       <div className='app-head'>
-        <h2>Jokes</h2>
+        <h2>Animals</h2>
       </div>
       <div className='app-content'>
-        <Joke />
+        <Animal />
       </div>
     </div>
   );
