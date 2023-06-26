@@ -6,7 +6,7 @@
   margin-top: 1.5rem;
 
   button {
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 0.5rem 0.7rem;
     border: none;
     background-color: #4ac09e;
@@ -24,7 +24,7 @@
 
     @media screen and (max-width: 400px) {
       margin: 0;
-      padding: 6px 9px;
+      padding: 8px 9px;
 
       font-size: 12px;
     }
@@ -75,6 +75,30 @@
 
     @media screen and (max-width: 400px) {
       padding: 2rem 0 2rem 1rem;
+    }
+  }
+
+  .animal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    .animal-input {
+      padding: 0.4rem 0.7rem;
+      border: 1px solid #4ac09e;
+      border-radius: 3px 1px 1px 3px;
+    }
+    .add-btn {
+      border-radius: 0 5px 5px 0;
+
+      button {
+        margin: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      padding: 1.5rem 0;
     }
   }
 }
